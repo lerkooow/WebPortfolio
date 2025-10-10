@@ -4,8 +4,11 @@
   font-size: 18px;
   border-radius: 50px;
   max-width: 1024px;
-  margin: 24px auto;
+  margin: 24px auto 0 auto;
   border: 1px solid #ffffff38;
+  position: sticky;
+  top: 24px;
+  z-index: 50;
 
   &__container {
     display: flex;
@@ -49,5 +52,12 @@
     &:hover {
       color: #ffffff;
     }
+  }
+}
+
+.headerScrolled {
+  background-color: #2c2c2cfc;
+  p {
+    color: #fff;
   }
 }

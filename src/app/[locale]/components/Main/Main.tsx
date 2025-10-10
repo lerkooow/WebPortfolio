@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import ShinyText from "@/components/ShinyText/ShinyText";
 
 import s from "./Main.module.scss";
+import Image from "next/image";
 
 export const Main = () => {
   const t = useTranslations("Main");
@@ -13,7 +14,7 @@ export const Main = () => {
         <p className={s.main__role}>{t("role")}</p>
         <h1 className={s.main__greeting}>{t("title")}</h1>
         <button className={s.main__button}>
-          <ShinyText text={`${t("more")}`} speed={3} />
+          <ShinyText text={`${t("contacts")}`} speed={3} />
         </button>
       </div>
     </div>
