@@ -1,9 +1,0 @@
-@import "tailwindcss";
-
-@theme inline {
-  --font-sans: var(--font-figtree);
-}
-
-body {
-  font-family: var(--font-figtree), Helvetica, sans-serif;
-}

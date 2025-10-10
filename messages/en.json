@@ -1,0 +1,12 @@
+{
+  "Header": {
+    "about": "About Me",
+    "portfolio": "Portfolio",
+    "contacts": "Contacts"
+  },
+  "Main": {
+    "title": "Hello world!\n I’m Valeriia — crafting smooth, modern \nand user-friendly web interfaces",
+    "role": "Frontend Developer",
+    "more": "Find out more"
+  }
+}
