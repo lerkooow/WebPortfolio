@@ -1,12 +1,27 @@
 {
   "Header": {
+    "home": "Home",
     "about": "About Me",
-    "portfolio": "Portfolio",
+    "projects": "Projects",
     "contacts": "Contacts"
   },
   "Main": {
     "title": "Hello world!\n I’m Valeriia — crafting smooth, modern \nand user-friendly web interfaces",
     "role": "Frontend Developer",
     "contacts": "Contacts me"
+  },
+  "AboutMe": {
+    "title": "About Me",
+    "introduction": "Introduction",
+    "introduction-description": "Hi! I’m Valeriia, a frontend developer with experience in React, TypeScript, and Next.js. I enjoy creating beautiful and user-friendly web interfaces where design meets functionality",
+    "skills": "Skills & Technologies",
+    "skills-description": "My tech stack includes JavaScript, HTML, CSS (SASS, Styled Components), TypeScript, React, Next.js, Redux Toolkit, Zustand, RTK Query, React Hook Form, Bootstrap, MUI, Tailwind. I also work with Git and Figma and have experience with responsive and cross-browser layouts",
+    "experience": "Experience",
+    "experience-one": "THINKOPP – Frontend Developer",
+    "experience-one-period": "November 2024 – July 2025",
+    "experience-one-description": "Worked on two commercial projects using Next.js, TypeScript, and Redux. Developed user interfaces, implemented responsive layouts, created a UI kit, configured routing, and integrated front-end functionality with the back-end",
+    "experience-two": "Antipoff IT – Intern Frontend Developer",
+    "experience-two-period": "June 2024 – November 2024",
+    "experience-two-description": "Contributed to a commercial project using Next.js, TypeScript, and Redux. Implemented user interfaces, configured routes, utilized component libraries (MUI), and collaborated with the back-end team for server integration"
   }
 }

@@ -1,12 +1,27 @@
 {
   "Header": {
+    "home": "Главная",
     "about": "Обо мне",
-    "portfolio": "Портфолио",
+    "projects": "Проекты",
     "contacts": "Контакты"
   },
   "Main": {
     "title": "Привет, мир!\n Меня зовут Валерия — я создаю современные и удобные веб-интерфейсы",
     "role": "Frontend разработчик",
     "contacts": "Связаться со мной"
+  },
+  "AboutMe": {
+    "title": "Обо мне",
+    "introduction": "Введение",
+    "introduction-description": "Привет! Я Валерия, frontend-разработчик с опытом работы в React, TypeScript и Next.js. Люблю создавать красивые и удобные веб-интерфейсы, где дизайн сочетается с функциональностью",
+    "skills": "Навыки и технологии",
+    "skills-description": "Мой стек: JavaScript, HTML, CSS (SASS, Styled Components), TypeScript, React, Next.js, Redux Toolkit, Zustand, RTK Query, React Hook Form, Bootstrap, MUI, Tailwind. Также работаю с Git, Figma, имею опыт адаптивной и кросс-браузерной верстки",
+    "experience": "Опыт",
+    "experience-one": "THINKOPP – Frontend Developer",
+    "experience-one-period": "Ноябрь 2024 – Июль 2025",
+    "experience-one-description": "Работала над двумя коммерческими проектами с использованием Next.js, TypeScript и Redux. Разрабатывала пользовательские интерфейсы, реализовывала адаптивные макеты, создавала UI-кит, настраивала маршрутизацию и интегрировала фронтенд-функциональность с бэкендом",
+    "experience-two": "Antipoff IT – Intern Frontend Developer",
+    "experience-two-period": "Июнь 2024 – Ноябрь 2024",
+    "experience-two-description": "Работала над коммерческим проектом с использованием Next.js, TypeScript и Redux. Реализовывала пользовательские интерфейсы, настраивала маршруты, использовала библиотеки компонентов (MUI) и сотрудничала с командой бэкенда для интеграции сервера"
   }
 }
