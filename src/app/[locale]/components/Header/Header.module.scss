@@ -1,11 +1,11 @@
 .header {
-  background-color: #ffffff0a;
+  background-color: var(--color-bg);
   padding: 16px 24px;
   font-size: 18px;
   border-radius: 50px;
   max-width: 1024px;
   margin: 24px auto 0 auto;
-  border: 1px solid #ffffff38;
+  border: 1px solid var(--color-border);
   position: sticky;
   top: 24px;
   z-index: 50;

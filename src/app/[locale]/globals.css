@@ -1,9 +1,15 @@
 @import "tailwindcss";
 
-@theme inline {
+:root {
   --font-sans: var(--font-manrope);
+
+  --color-bg: #ffffff0a;
+  --color-border: #ffffff38;
+  --color-text: #ffffff;
+  --color-accent: #4f46e5;
 }
 
 body {
-  font-family: var(--font-manrope), Helvetica, sans-serif;
+  font-family: var(--font-manrope), sans-serif;
+  color: #fff;
 }

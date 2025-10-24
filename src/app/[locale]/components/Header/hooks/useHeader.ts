@@ -1,27 +1,30 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "@/i18n/navigation";
 
 import { useEffect, useState } from "react";
 
 import { useTranslations } from "use-intl";
 
 export const useHeader = () => {
-  const router = useRouter();
-  const locale = useLocale();
   const [isScrolled, setIsScrolled] = useState(false);
 
   const t = useTranslations("Header");
 
+  const router = useRouter();
+  const pathname = usePathname();
+  const locale = useLocale();
+
   const toggleLanguage = () => {
     const newLocale = locale === "en" ? "ru" : "en";
-    router.replace(`/${newLocale}`);
+    router.replace(pathname, { locale: newLocale });
   };
 
   const nav = [
+    { label: `${t("home")}`, href: "/" },
     { label: `${t("about")}`, href: "/about" },
-    { label: `${t("portfolio")}`, href: "/projects" },
+    { label: `${t("projects")}`, href: "/projects" },
     { label: `${t("contacts")}`, href: "/contacts" },
   ];
 
