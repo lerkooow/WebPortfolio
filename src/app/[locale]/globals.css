@@ -6,10 +6,10 @@
   --color-bg: #ffffff0a;
   --color-border: #ffffff38;
   --color-text: #ffffff;
-  --color-accent: #4f46e5;
+  --color-textLight: #d3d3d3;
 }
 
 body {
   font-family: var(--font-manrope), sans-serif;
-  color: #fff;
+  color: var(--color-text);
 }

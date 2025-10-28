@@ -13,15 +13,70 @@
   "AboutMe": {
     "title": "About Me",
     "introduction": "Introduction",
-    "introduction-description": "Hi! I’m Valeriia, a frontend developer with experience in React, TypeScript, and Next.js. I enjoy creating beautiful and user-friendly web interfaces where design meets functionality",
+    "introduction-description": "Hi! I’m Valeriia, a frontend developer with experience in React, TypeScript, and Next.js. I enjoy creating beautiful and user-friendly web interfaces where design meets functionality.",
     "skills": "Skills & Technologies",
-    "skills-description": "My tech stack includes JavaScript, HTML, CSS (SASS, Styled Components), TypeScript, React, Next.js, Redux Toolkit, Zustand, RTK Query, React Hook Form, Bootstrap, MUI, Tailwind. I also work with Git and Figma and have experience with responsive and cross-browser layouts",
-    "experience": "Experience",
-    "experience-one": "THINKOPP – Frontend Developer",
-    "experience-one-period": "November 2024 – July 2025",
-    "experience-one-description": "Worked on two commercial projects using Next.js, TypeScript, and Redux. Developed user interfaces, implemented responsive layouts, created a UI kit, configured routing, and integrated front-end functionality with the back-end",
-    "experience-two": "Antipoff IT – Intern Frontend Developer",
-    "experience-two-period": "June 2024 – November 2024",
-    "experience-two-description": "Contributed to a commercial project using Next.js, TypeScript, and Redux. Implemented user interfaces, configured routes, utilized component libraries (MUI), and collaborated with the back-end team for server integration"
-  }
+    "skills-description": "My tech stack includes JavaScript, HTML, CSS, SASS, styled-components, TypeScript, React, Next.js, Redux Toolkit, Zustand, RTK Query, React Hook Form, Zod, Bootstrap, MUI, and Tailwind. I also work with Git and Figma and have experience with responsive and cross-browser layouts.",
+    "experience": "Experience"
+  },
+  "Experience": [
+    {
+      "company": "THINKOPP",
+      "position": "Frontend Developer",
+      "period": "November 2024 – July 2025",
+      "description": "Worked on two commercial projects using Next.js, TypeScript, and Redux. Developed user interfaces, implemented responsive layouts, created a UI kit, configured routing, and integrated front-end functionality with the back-end."
+    },
+    {
+      "company": "Antipoff IT",
+      "position": "Intern Frontend Developer",
+      "period": "June 2024 – November 2024",
+      "description": "Contributed to a commercial project using Next.js, TypeScript, and Redux. Implemented user interfaces, configured routes, utilized component libraries (MUI), and collaborated with the back-end team for server integration."
+    }
+  ],
+  "Projects": [
+    {
+      "title": "SEO-system",
+      "period": "October 2025",
+      "description": "One-page application 'SEO-system'",
+      "stack": ["HTML", "CSS", "JavaScript"],
+      "linkGit": "https://github.com/lerkooow/SEOTestTask",
+      "linkDeploy": "https://seo-test-task.vercel.app",
+      "img": "seo.png"
+    },
+    {
+      "title": "User two-factor authorization",
+      "period": "October 2025",
+      "description": "User Authorization with Two-Factor Authentication app",
+      "stack": ["React", "TypeScript", "styled-components", "Redux Toolkit", "RTK Query", "React Hook Form", "React Router", "Vite"],
+      "linkGit": "https://github.com/lerkooow/AuthTestTask",
+      "linkDeploy": "https://auth-test-task-mu.vercel.app",
+      "img": "auth.png"
+    },
+    {
+      "title": "Fitness",
+      "period": "October 2025",
+      "description": "One-page Fitness app",
+      "stack": ["Next.js", "TypeScript", "Tailwind", " Redux Toolkit", "RTK Query"],
+      "linkGit": "https://github.com/lerkooow/TestTaskFitness",
+      "linkDeploy": "https://test-task-fitness.vercel.app",
+      "img": "fitness.png"
+    },
+    {
+      "title": "Pizza",
+      "period": "October 2025",
+      "description": "One-page Fitness app",
+      "stack": ["Next.js", "TypeScript", "Tailwind", " Redux Toolkit", "RTK Query"],
+      "linkGit": "https://github.com/lerkooow/TestTaskFitness",
+      "linkDeploy": "https://test-task-fitness.vercel.app",
+      "img": "pizza.png"
+    },
+    {
+      "title": "Inline",
+      "period": "October 2025",
+      "description": "One-page Fitness app",
+      "stack": ["Next.js", "TypeScript", "Tailwind", " Redux Toolkit", "RTK Query"],
+      "linkGit": "https://github.com/lerkooow/TestTaskFitness",
+      "linkDeploy": "https://test-task-fitness.vercel.app",
+      "img": "inline.png"
+    }
+  ]
 }

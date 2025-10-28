@@ -15,13 +15,49 @@
     "introduction": "Введение",
     "introduction-description": "Привет! Я Валерия, frontend-разработчик с опытом работы в React, TypeScript и Next.js. Люблю создавать красивые и удобные веб-интерфейсы, где дизайн сочетается с функциональностью",
     "skills": "Навыки и технологии",
-    "skills-description": "Мой стек: JavaScript, HTML, CSS (SASS, Styled Components), TypeScript, React, Next.js, Redux Toolkit, Zustand, RTK Query, React Hook Form, Bootstrap, MUI, Tailwind. Также работаю с Git, Figma, имею опыт адаптивной и кросс-браузерной верстки",
-    "experience": "Опыт",
-    "experience-one": "THINKOPP – Frontend Developer",
-    "experience-one-period": "Ноябрь 2024 – Июль 2025",
-    "experience-one-description": "Работала над двумя коммерческими проектами с использованием Next.js, TypeScript и Redux. Разрабатывала пользовательские интерфейсы, реализовывала адаптивные макеты, создавала UI-кит, настраивала маршрутизацию и интегрировала фронтенд-функциональность с бэкендом",
-    "experience-two": "Antipoff IT – Intern Frontend Developer",
-    "experience-two-period": "Июнь 2024 – Ноябрь 2024",
-    "experience-two-description": "Работала над коммерческим проектом с использованием Next.js, TypeScript и Redux. Реализовывала пользовательские интерфейсы, настраивала маршруты, использовала библиотеки компонентов (MUI) и сотрудничала с командой бэкенда для интеграции сервера"
-  }
+    "skills-description": "Мой стек: JavaScript, HTML, CSS, SASS, styled-components, TypeScript, React, Next.js, Redux Toolkit, Zustand, RTK Query, React Hook Form, Zod, Bootstrap, MUI, Tailwind. Также работаю с Git, Figma, имею опыт адаптивной и кросс-браузерной верстки",
+    "experience": "Опыт"
+  },
+  "Experience": [
+    {
+      "company": "THINKOPP",
+      "position": "Frontend Developer",
+      "period": "Ноябрь 2024 – Июль 2025",
+      "description": "Работала над двумя коммерческими проектами с использованием Next.js, TypeScript и Redux. Разрабатывала пользовательские интерфейсы, реализовывала адаптивные макеты, создавала UI-кит, настраивала маршрутизацию и интегрировала фронтенд-функциональность с бэкендом."
+    },
+    {
+      "company": "Antipoff IT",
+      "position": "Intern Frontend Developer",
+      "period": "Июнь 2024 – Ноябрь 2024",
+      "description": "Работала над коммерческим проектом с использованием Next.js, TypeScript и Redux. Реализовывала пользовательские интерфейсы, настраивала маршруты, использовала библиотеки компонентов (MUI) и сотрудничала с командой бэкенда для интеграции сервера."
+    }
+  ],
+  "Projects": [
+    {
+      "title": "SEO system",
+      "period": "Октябрь 2025",
+      "description": "Одностраничное приложение 'SEO-system'",
+      "linkGit": "https://github.com/lerkooow/SEOTestTask?tab=readme-ov-file",
+      "linkDeploy": "https://seo-test-task.vercel.app",
+      "img": "seo.png"
+    },
+    {
+      "title": "Двухфакторная авторизация пользователя",
+      "period": "Октябрь 2025",
+      "description": "Приложение 'Авторизация пользователя с двухфакторной аутентификацией'",
+      "stack": ["React", "TypeScript", "styled-components", "Redux Toolkit", "RTK Query", "React Hook Form", "React Router", "Vite"],
+      "linkGit": "https://github.com/lerkooow/AuthTestTask",
+      "linkDeploy": "https://auth-test-task-mu.vercel.app",
+      "img": "auth.png"
+    },
+    {
+      "title": "Фитнесс",
+      "period": "Октябрь 2025",
+      "description": "Одностраничное приложение 'Фитнес'",
+      "stack": ["Next.js", "TypeScript", "Tailwind", " Redux Toolkit", "RTK Query"],
+      "linkGit": "https://github.com/lerkooow/TestTaskFitness",
+      "linkDeploy": "https://test-task-fitness.vercel.app",
+      "img": "fitness.png"
+    }
+  ]
 }

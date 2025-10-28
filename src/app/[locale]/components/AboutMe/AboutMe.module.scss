@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   min-height: 100vh;
-  color: #fff;
+  color: var(--color-text);
 
   &__background {
     position: absolute;
@@ -58,7 +58,7 @@
 
   &__subtitle {
     font-size: 26px;
-    color: #fff;
+    color: var(--color-text);
     font-weight: 700;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
   }
@@ -72,7 +72,7 @@
     padding: 12px 0 12px 20px;
 
     &:hover {
-      border-color: #ffffff;
+      border-color: var(--color-text);
     }
   }
 
@@ -86,21 +86,26 @@
   }
 
   &__experience {
-    font-size: 22px;
-    color: #ffffff;
-    font-weight: 600;
-  }
+    display: flex;
+    gap: 12px;
 
-  &__experience_period {
-    font-size: 16px;
-    color: #aaa;
-    font-style: italic;
-    margin-bottom: 6px;
-  }
+    &_name {
+      font-size: 22px;
+      color: var(--color-text);
+      font-weight: 600;
+    }
 
-  &__experience_description {
-    color: #ddd;
-    padding-left: 4px;
+    &_period {
+      font-size: 16px;
+      color: #aaa;
+      font-style: italic;
+      margin-bottom: 6px;
+    }
+
+    &_description {
+      color: #ddd;
+      padding-left: 4px;
+    }
   }
 
   @keyframes fadeIn {
