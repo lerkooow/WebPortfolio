@@ -1,0 +1,23 @@
+.returnComponent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 48px;
+
+  h1 {
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 8px 24px;
+    border-radius: 999px;
+  }
+
+  a {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+    &:hover {
+      transform: translateX(-3px);
+      opacity: 0.8;
+    }
+  }
+}
