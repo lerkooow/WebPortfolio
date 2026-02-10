@@ -1,8 +1,9 @@
 "use client";
 
+import Silk from "@/components/Silk/Silk";
+
 import { Header } from "../components/Header";
 import { AboutMe } from "../components/AboutMe";
-import Silk from "@/components/Silk/Silk";
 
 export default function AboutPage() {
   return (

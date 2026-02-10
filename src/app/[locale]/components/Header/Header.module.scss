@@ -50,8 +50,6 @@
 }
 
 .headerScrolled {
-  background-color: #2c2c2cfc;
-  p {
-    color: var(--color-text);
-  }
+  backdrop-filter: blur(40px);
+  background-color: #00000068;
 }

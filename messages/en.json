@@ -13,70 +13,118 @@
   "AboutMe": {
     "title": "About Me",
     "introduction": "Introduction",
-    "introduction-description": "Hi! I’m Valeriia, a frontend developer with experience in React, TypeScript, and Next.js. I enjoy creating beautiful and user-friendly web interfaces where design meets functionality.",
+    "introduction-description": "I'm a Frontend Developer with commercial experience, passionate about building modern and user-friendly web applications. I have worked on real-world projects, including UI development, responsive layouts, backend integration, and maintaining the client side of applications.",
     "skills": "Skills & Technologies",
-    "skills-description": "My tech stack includes JavaScript, HTML, CSS, SASS, styled-components, TypeScript, React, Next.js, Redux Toolkit, Zustand, RTK Query, React Hook Form, Zod, Bootstrap, MUI, and Tailwind. I also work with Git and Figma and have experience with responsive and cross-browser layouts.",
+    "skills-description": "Stack:\nLanguages & Markup: HTML, CSS/SCSS, JavaScript, TypeScript\nFrameworks & Libraries: React, Next.js, Redux, Redux Toolkit, RTK Query, Zustand, MUI, Bootstrap, Tailwind, styled-components, shadcn/ui, React Hook Form, Zod\nTesting: React Testing Library\nTools & Version Control: Git, GitLab, Vite, Figma",
     "experience": "Experience"
   },
   "Experience": [
     {
+      "company": "Stimulus-BVI Training Center (NOCHU DPO)",
+      "position": "Frontend Developer / HTML Developer",
+      "period": "November 2025 – Present",
+      "description": "- Built web pages based on Figma designs, adapted for mobile and desktop devices\n- Styled pages using SCSS\n- Implemented basic interactive functionality using JavaScript\n- Maintained clean code structure following the BEM methodology for easier maintenance\n- Performed testing across different browsers and devices, fixed cross-browser issues\nStack: HTML, SCSS, JavaScript, BEM methodology, Figma"
+    },
+    {
       "company": "THINKOPP",
       "position": "Frontend Developer",
-      "period": "November 2024 – July 2025",
-      "description": "Worked on two commercial projects using Next.js, TypeScript, and Redux. Developed user interfaces, implemented responsive layouts, created a UI kit, configured routing, and integrated front-end functionality with the back-end."
+      "period": "May 2024 – September 2025",
+      "description": "- Participated in the development of two commercial projects\n- Built pages based on Figma designs\n- Styled pages using SCSS\n- Implemented responsive layouts and fully developed a UI kit\n- Maintained clean code structure following the BEM methodology for easier maintenance\n- Integrated the client side with the server, made API requests and displayed data\n- Developed user interfaces, including interactive UI elements\n- Maintained the client side of the application and fixed bugs\n- Created and documented UI components using Storybook\nStack: Next.js, TypeScript, Redux, HTML, SCSS, JavaScript, Figma, Storybook"
     },
     {
       "company": "Antipoff IT",
-      "position": "Intern Frontend Developer",
-      "period": "June 2024 – November 2024",
-      "description": "Contributed to a commercial project using Next.js, TypeScript, and Redux. Implemented user interfaces, configured routes, utilized component libraries (MUI), and collaborated with the back-end team for server integration."
+      "position": "Frontend Developer",
+      "period": "October 2022 – March 2024",
+      "description": "- Built web pages based on Figma designs, adapted for mobile and desktop devices\n- Styled pages using SCSS\n- Integrated the client side with the server, made API requests and displayed data\n- Developed interactive UI elements\n- Maintained the client side of the application and fixed bugs\nStack: Next.js, TypeScript, Redux, HTML, SCSS, JavaScript, Figma"
     }
   ],
   "Projects": [
     {
       "title": "SEO-system",
+      "slug": "seo-system",
       "period": "October 2025",
-      "description": "One-page application 'SEO-system'",
+      "description": "A one-page application created according to a Figma layout. The project features a fully responsive design, clean and semantic markup, and minor interactive functionality using JavaScript to enhance user experience",
       "stack": ["HTML", "CSS", "JavaScript"],
       "linkGit": "https://github.com/lerkooow/SEOTestTask",
       "linkDeploy": "https://seo-test-task.vercel.app",
       "img": "seo.png"
     },
     {
-      "title": "User two-factor authorization",
-      "period": "October 2025",
-      "description": "User Authorization with Two-Factor Authentication app",
-      "stack": ["React", "TypeScript", "styled-components", "Redux Toolkit", "RTK Query", "React Hook Form", "React Router", "Vite"],
-      "linkGit": "https://github.com/lerkooow/AuthTestTask",
-      "linkDeploy": "https://auth-test-task-mu.vercel.app",
-      "img": "auth.png"
-    },
-    {
       "title": "Fitness",
+      "slug": "fitness",
       "period": "October 2025",
-      "description": "One-page Fitness app",
+      "description": "A one-page fitness application developed with Next.js and TypeScript following a provided Figma layout. The project includes a fully responsive design, interactive elements, and basic data handling using Redux Toolkit and RTK Query to simulate app functionality",
       "stack": ["Next.js", "TypeScript", "Tailwind", " Redux Toolkit", "RTK Query"],
       "linkGit": "https://github.com/lerkooow/TestTaskFitness",
       "linkDeploy": "https://test-task-fitness.vercel.app",
       "img": "fitness.png"
     },
     {
-      "title": "Pizza",
-      "period": "October 2025",
-      "description": "One-page Fitness app",
+      "title": "Pizza Store",
+      "slug": "pizza",
+      "period": "September 2025",
+      "description": "A Next.js application for pizza ordering with a multi-step order form. The project includes adaptive layout, form validation, and step-by-step navigation implemented using React state management and Redux Toolkit. Built with TypeScript and styled with Tailwind CSS for a clean and modern look",
       "stack": ["Next.js", "TypeScript", "Tailwind", " Redux Toolkit", "RTK Query"],
-      "linkGit": "https://github.com/lerkooow/TestTaskFitness",
-      "linkDeploy": "https://test-task-fitness.vercel.app",
+      "linkGit": "https://github.com/lerkooow/TestTaskPizza",
+      "linkDeploy": "https://test-task-pizza.vercel.app",
       "img": "pizza.png"
     },
     {
-      "title": "Inline",
-      "period": "October 2025",
-      "description": "One-page Fitness app",
-      "stack": ["Next.js", "TypeScript", "Tailwind", " Redux Toolkit", "RTK Query"],
-      "linkGit": "https://github.com/lerkooow/TestTaskFitness",
-      "linkDeploy": "https://test-task-fitness.vercel.app",
+      "title": "Inline Web",
+      "slug": "inline",
+      "period": "July 2025",
+      "description": "A one-page adaptive web layout built according to a Figma design. The project features responsive design, semantic HTML structure, and simple interactive functionality implemented with vanilla JavaScript and SASS",
+      "stack": ["HTML", "SASS", "JavaScript"],
+      "linkGit": "https://github.com/lerkooow/InlineTest",
+      "linkDeploy": "https://lerkooow.github.io/InlineTest",
       "img": "inline.png"
+    },
+    {
+      "title": "Rocont Web",
+      "slug": "rocont",
+      "period": "July 2025",
+      "description": "A one-page adaptive web layout built according to a Figma design. The project features responsive design, semantic HTML structure, and simple interactive functionality implemented with vanilla JavaScript and SASS",
+      "stack": ["HTML", "SASS", "JavaScript"],
+      "linkGit": "https://github.com/lerkooow/RocontTestTask",
+      "linkDeploy": "https://rocont-test-task-ruddy.vercel.app",
+      "img": "rocont.png"
+    },
+    {
+      "title": "ToDo List",
+      "slug": "todo-list",
+      "period": "July 2025",
+      "description": "Web-application created for managing a list of tasks. The application allows users to add, delete, filter and mark tasks as completed ",
+      "stack": ["React", "TypeScript", "SASS", "Redux Toolkit", "Vite"],
+      "linkGit": "https://github.com/lerkooow/todosTaskTest",
+      "linkDeploy": "https://todos-task-test-xclw.vercel.app",
+      "img": "todo.png"
+    },
+    {
+      "title": "Movie parameters",
+      "slug": "movie-parameters",
+      "period": "November 2024",
+      "description": "The project is a form for entering film production parameters, and also includes validation and responsive layout",
+      "stack": ["Next.js", "Zod", "MUI", "Redux Toolkit", "CSS"],
+      "linkGit": "https://github.com/lerkooow/test_task_movie-parameters",
+      "linkDeploy": "https://test-task-movie-parameters.vercel.app/",
+      "img": "movie-parameters.png"
     }
-  ]
+  ],
+  "Contacts": {
+    "title": "Contact me",
+    "phone": "Phone",
+    "email": "Email",
+    "telegram": "Telegram"
+  },
+  "ProjectItem": {
+    "aboutProject": "About Project",
+    "techStack": "Tech Stack",
+    "links": "Links",
+    "liveDemo": "Live Demo",
+    "github": "GitHub",
+    "title": "Projects"
+  },
+  "StackOptions": {
+    "all": "All"
+  }
 }

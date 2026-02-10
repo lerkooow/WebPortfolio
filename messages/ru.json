@@ -13,51 +13,118 @@
   "AboutMe": {
     "title": "Обо мне",
     "introduction": "Введение",
-    "introduction-description": "Привет! Я Валерия, frontend-разработчик с опытом работы в React, TypeScript и Next.js. Люблю создавать красивые и удобные веб-интерфейсы, где дизайн сочетается с функциональностью",
+    "introduction-description": "Я Frontend-разработчик с коммерческим опытом, увлеченно создаю современные и удобные веб-приложения. Работала над реальными проектами, включая разработку интерфейсов, адаптивную верстку, интеграцию с серверной частью и поддержку клиентской стороны приложений.",
     "skills": "Навыки и технологии",
-    "skills-description": "Мой стек: JavaScript, HTML, CSS, SASS, styled-components, TypeScript, React, Next.js, Redux Toolkit, Zustand, RTK Query, React Hook Form, Zod, Bootstrap, MUI, Tailwind. Также работаю с Git, Figma, имею опыт адаптивной и кросс-браузерной верстки",
+    "skills-description": "Стек:\nЯзыки и разметка: HTML, CSS/SCSS, JavaScript, TypeScript\nФреймворки и библиотеки: React, Next.js, Redux, Redux Toolkit, RTK Query, Zustand, MUI, Bootstrap, Tailwind, styled-components, shadcn/ui, React Hook Form, Zod\nТестирование: React Testing Library\nИнструменты и системы контроля версий: Git, Gitlab, Vite, Figma",
     "experience": "Опыт"
   },
   "Experience": [
     {
+      "company": "НОЧУ ДПО Учебный центр Стимул-Бви",
+      "position": "Frontend-разработчик / HTML-верстальщик",
+      "period": "Ноябрь 2025 – сейчас",
+      "description": "- Верстала страницы по макетам из Figma, адаптировала под мобильные и десктопные устройства\n- Стилизация страниц с использованием SCSS\n- Реализовала базовый интерактивный функционал с помощью JavaScript\n- Поддерживала чистую структуру кода по методологии БЭМ для упрощения поддержки\n- Проводила тестирование на разных браузерах и устройствах, исправляла баги кроссбраузерности\nСтек: HTML, SCSS, JavaScript, методолгия БЭМ, Figma"
+    },
+    {
       "company": "THINKOPP",
       "position": "Frontend Developer",
-      "period": "Ноябрь 2024 – Июль 2025",
-      "description": "Работала над двумя коммерческими проектами с использованием Next.js, TypeScript и Redux. Разрабатывала пользовательские интерфейсы, реализовывала адаптивные макеты, создавала UI-кит, настраивала маршрутизацию и интегрировала фронтенд-функциональность с бэкендом."
+      "period": "Май 2024 – Сентябрь 2025",
+      "description": "- Принимала участие в разработке двух коммерческих проектов\n- Верстала страницы по макетам из Figma\n- Стилизация страниц с использованием SCSS\n- Адаптивная вёрстка, полная разработка UI-kit\n- Поддерживала чистую структуру кода по методологии БЭМ для упрощения поддержки\n- Интегрировала клиентскую часть с серверной, делала запросы и отображала данные\n- Разработка пользовательского интерфейса, в том числе его интерактивных элементов\n- Поддерживала клиентскую часть приложения и исправляла баги\n- Создавала и документировала компоненты интерфейса с использованием storybook\nСтек: Next.js, TypeScript, Redux, HTML, SCSS, JavaScript, Figma, storybook"
     },
     {
       "company": "Antipoff IT",
-      "position": "Intern Frontend Developer",
-      "period": "Июнь 2024 – Ноябрь 2024",
-      "description": "Работала над коммерческим проектом с использованием Next.js, TypeScript и Redux. Реализовывала пользовательские интерфейсы, настраивала маршруты, использовала библиотеки компонентов (MUI) и сотрудничала с командой бэкенда для интеграции сервера."
+      "position": "Frontend Developer",
+      "period": "Октябрь 2022 – Март 2024",
+      "description": "- Верстала страницы по макетам из Figma, адаптировала под мобильные и десктопные устройства\n- Стилизация страниц с использованием SCSS\n- Интегрировала клиентскую часть с серверной, делала запросы и отображала данные\n- Делала интерактивные элементы интерфейса\n- Поддерживала клиентскую часть приложения и исправляла баги\nСтек: Next.js, TypeScript, Redux, HTML, SCSS, JavaScript, Figma"
     }
   ],
   "Projects": [
     {
       "title": "SEO system",
+      "slug": "seo-system",
       "period": "Октябрь 2025",
-      "description": "Одностраничное приложение 'SEO-system'",
+      "description": "Одностраничное приложение, созданное по макету Figma. Проект отличается полностью адаптивным дизайном, чистой и семантической разметкой, а также небольшим интерактивным функционалом с использованием JavaScript для улучшения пользовательского опыта",
+      "stack": ["HTML", "CSS", "JavaScript"],
       "linkGit": "https://github.com/lerkooow/SEOTestTask?tab=readme-ov-file",
       "linkDeploy": "https://seo-test-task.vercel.app",
       "img": "seo.png"
     },
     {
-      "title": "Двухфакторная авторизация пользователя",
-      "period": "Октябрь 2025",
-      "description": "Приложение 'Авторизация пользователя с двухфакторной аутентификацией'",
-      "stack": ["React", "TypeScript", "styled-components", "Redux Toolkit", "RTK Query", "React Hook Form", "React Router", "Vite"],
-      "linkGit": "https://github.com/lerkooow/AuthTestTask",
-      "linkDeploy": "https://auth-test-task-mu.vercel.app",
-      "img": "auth.png"
-    },
-    {
       "title": "Фитнесс",
+      "slug": "fitness",
       "period": "Октябрь 2025",
-      "description": "Одностраничное приложение 'Фитнес'",
+      "description": "Одностраничное фитнес-приложение, разработанное с использованием Next.js и TypeScript по предоставленному макету Figma. Проект включает в себя полностью адаптивный дизайн, интерактивные элементы и базовую обработку данных с использованием Redux Toolkit и RTK Query для моделирования функциональности приложения",
       "stack": ["Next.js", "TypeScript", "Tailwind", " Redux Toolkit", "RTK Query"],
       "linkGit": "https://github.com/lerkooow/TestTaskFitness",
       "linkDeploy": "https://test-task-fitness.vercel.app",
       "img": "fitness.png"
+    },
+    {
+      "title": "Пицца Стор",
+      "slug": "pizza",
+      "period": "Сентябрь 2025",
+      "description": "Приложение Next.js для заказа пиццы с многоступенчатой формой заказа. Проект включает в себя адаптивный макет, валидацию форм и пошаговую навигацию, реализованную с использованием управления состоянием React и Redux Toolkit. Разработано с использованием TypeScript и оформлено с помощью Tailwind CSS для чистого и современного внешнего вида",
+      "stack": ["Next.js", "TypeScript", "Tailwind", " Redux Toolkit", "RTK Query"],
+      "linkGit": "https://github.com/lerkooow/TestTaskFitness",
+      "linkDeploy": "https://test-task-fitness.vercel.app",
+      "img": "pizza.png"
+    },
+    {
+      "title": "Inline Web",
+      "slug": "inline",
+      "period": "Июль 2025",
+      "description": "Одностраничный адаптивный веб-макет, созданный в соответствии с дизайном Figma. Проект включает в себя адаптивный дизайн, семантическую структуру HTML и простую интерактивную функциональность, реализованную с помощью чистого JavaScript и SASS",
+      "stack": ["HTML", "SASS", "JavaScript"],
+      "linkGit": "https://github.com/lerkooow/TestTaskFitness",
+      "linkDeploy": "https://test-task-fitness.vercel.app",
+      "img": "inline.png"
+    },
+    {
+      "title": "Rocont Web",
+      "slug": "rocont",
+      "period": "Июль 2025",
+      "description": "Одностраничный адаптивный веб-макет, созданный в соответствии с дизайном Figma. Проект включает в себя адаптивный дизайн, семантическую структуру HTML и простую интерактивную функциональность, реализованную с помощью чистого JavaScript и SASS",
+      "stack": ["HTML", "SASS", "JavaScript"],
+      "linkGit": "https://github.com/lerkooow/RocontTestTask",
+      "linkDeploy": "https://rocont-test-task-ruddy.vercel.app",
+      "img": "rocont.png"
+    },
+    {
+      "title": "Список дел",
+      "slug": "todo-list",
+      "period": "Июль 2025",
+      "description": "Веб-приложение, созданное для управления списком задач. Приложение позволяет пользователям добавлять, удалять, фильтровать и помечать задачи как выполненные.",
+      "stack": ["React", "TypeScript", "SASS", "Redux Toolkit", "Vite"],
+      "linkGit": "https://github.com/lerkooow/todosTaskTest",
+      "linkDeploy": "https://todos-task-test-xclw.vercel.app",
+      "img": "todo.png"
+    },
+    {
+      "title": "Параметры фильмов",
+      "slug": "movie-parameters",
+      "period": "Ноябрь 2024",
+      "description": "Проект представляет собой форму для ввода параметров производства фильмов, а также включает в себя валидацию и адаптивную разметку.",
+      "stack": ["Next.js", "Zod", "MUI", "Redux Toolkit", "CSS"],
+      "linkGit": "https://github.com/lerkooow/test_task_movie-parameters",
+      "linkDeploy": "https://test-task-movie-parameters.vercel.app/",
+      "img": "movie-parameters.png"
     }
-  ]
+  ],
+  "Contacts": {
+    "title": "Cвяжитесь со мной",
+    "phone": "Телефон",
+    "email": "Почта",
+    "telegram": "Телеграм"
+  },
+  "ProjectItem": {
+    "aboutProject": "О проекте",
+    "techStack": "Технический стек",
+    "links": "Ссылки",
+    "liveDemo": "Демо",
+    "github": "GitHub",
+    "title": "Проекты"
+  },
+  "StackOptions": {
+    "all": "Все"
+  }
 }

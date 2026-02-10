@@ -1,9 +1,9 @@
 "use client";
 
+import { useEffect, useState } from "react";
+
 import { useLocale } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
-
-import { useEffect, useState } from "react";
 
 import { useTranslations } from "use-intl";
 

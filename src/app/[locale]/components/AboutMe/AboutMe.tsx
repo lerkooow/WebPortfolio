@@ -1,7 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
-
 import { useTranslations } from "use-intl";
+
+import { ReturnComponent } from "../ReturnComponent";
 
 import s from "./AboutMe.module.scss";
 
@@ -17,18 +16,11 @@ export const AboutMe = () => {
   const e = useTranslations();
 
   const about = e.raw("Experience");
-  console.log("🚀 ~ AboutMe ~ about:", about);
 
   return (
     <div className={s.aboutMe}>
       <div className={s.aboutMe__container}>
-        <div className={s.aboutMe__title}>
-          <Link href="/">
-            <Image src="/arrow.svg" alt="arrow back main page" width={24} height={24} className="rotate-90 animate-pulse cursor-pointer" />
-          </Link>
-          <h1>{t("title")}</h1>
-          <div></div>
-        </div>
+        <ReturnComponent title={`${t("title")}`} href="/" />
         <div className={s.aboutMe__content}>
           <p className={s.aboutMe__subtitle}>{t("introduction")}</p>
           <div className={s.aboutMe__information}>
@@ -45,8 +37,8 @@ export const AboutMe = () => {
 
           <p className={s.aboutMe__subtitle}>{t("experience")}</p>
           <div className={s.aboutMe__information}>
-            {about.map((item: IAbout) => (
-              <div className={s.aboutMe__description}>
+            {about.map((item: IAbout, index: number) => (
+              <div className={s.aboutMe__description} key={index}>
                 <div className={s.aboutMe__experience}>
                   <p className={s.aboutMe__experience_name}>{item.company}</p> - <p>{item.position}</p>
                 </div>

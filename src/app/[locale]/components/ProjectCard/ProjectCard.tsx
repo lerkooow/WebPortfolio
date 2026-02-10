@@ -1,5 +1,7 @@
-import Image from "next/image";
 import { ReactNode } from "react";
+
+import Image from "next/image";
+
 import s from "./ProjectCard.module.scss";
 
 interface ProjectCardProps {

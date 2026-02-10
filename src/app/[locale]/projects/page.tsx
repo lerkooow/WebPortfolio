@@ -2,6 +2,7 @@
 
 import { Header } from "../components/Header";
 import { Projects } from "../components/Projects";
+
 import Silk from "@/components/Silk/Silk";
 
 export default function ProjectsPage() {
