@@ -20,7 +20,6 @@ export const AboutMe = () => {
   return (
     <div className={s.aboutMe}>
       <div className={s.aboutMe__container}>
-        <ReturnComponent title={`${t("title")}`} href="/" />
         <div className={s.aboutMe__content}>
           <p className={s.aboutMe__subtitle}>{t("introduction")}</p>
           <div className={s.aboutMe__information}>

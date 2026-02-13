@@ -10,9 +10,6 @@ export const Contacts = () => {
 
   return (
     <div className={s.wrapper}>
-      <Link href="/">
-        <Image src="/arrow.svg" alt="arrow back main page" width={24} height={24} className="rotate-90 animate-pulse cursor-pointer" />
-      </Link>
       <h1 className={s.title}>{t("title")}</h1>
 
       <div className={s.timelineWrapper}>
