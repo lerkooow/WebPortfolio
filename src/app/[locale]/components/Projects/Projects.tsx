@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useState, useMemo } from "react";
 
 import { useTranslations } from "use-intl";
@@ -27,7 +28,7 @@ export const Projects = () => {
 
   return (
     <div className={s.projects}>
-      <div className={s.projects__image}>{projectsItem && <img key={projectsItem.img} src={`/images/${projectsItem.img}`} alt={projectsItem.title} className={s.projects__preview} />}</div>
+      <div className={s.projects__image}>{projectsItem && <Image key={projectsItem.img} src={`/images/${projectsItem.img}`} alt={projectsItem.title} className={s.projects__preview} />}</div>
 
       <div className={s.projects__info}>
         <div className={s.projects__header}>
@@ -53,7 +54,7 @@ export const Projects = () => {
               href={`/projects/${project.slug}`}
             >
               <div className={s.projects__itemHeader}>
-                <span className={s.projects__arrow}>{selectedProject === project.title && <img src="/arrow.svg" alt="arrow right" />}</span>
+                <span className={s.projects__arrow}>{selectedProject === project.title && <Image src="/arrow.svg" alt="arrow right" />}</span>
                 <p>{project.title}</p>
               </div>
               <p className={s.projects__itemStack}>{project.stack[0]}</p>
