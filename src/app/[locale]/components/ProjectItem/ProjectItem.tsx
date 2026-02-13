@@ -34,7 +34,7 @@ export const ProjectItem = () => {
               <h1 className={s.hero__title}>{project.title}</h1>
             </div>
             <div className={s.hero__imageWrapper}>
-              <Image src={`/images/${project.img}`} alt={project.title} className={s.imageWrapper__image} />
+              <Image src={`/images/${project.img}`} alt={project.title} className={s.imageWrapper__image} width={600} height={300} />
             </div>
           </div>
         </div>

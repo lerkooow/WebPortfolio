@@ -33,8 +33,8 @@ export const Contacts = () => {
             <div />
             <div className={s.right}>
               <span className={s.label}>{t("telegram")}</span>
-              <a href="https://t.me/lerkooow" target="_blank" rel="noopener noreferrer" className={s.link} aria-label="Open Telegram profile">
-                @lerkooow
+              <a href="https://t.me/akvernm" target="_blank" rel="noopener noreferrer" className={s.link} aria-label="Open Telegram profile">
+                @akvernm
               </a>
             </div>
           </div>

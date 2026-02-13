@@ -15,7 +15,7 @@
     "introduction": "Введение",
     "introduction-description": "Я Frontend-разработчик с коммерческим опытом, увлеченно создаю современные и удобные веб-приложения. Работала над реальными проектами, включая разработку интерфейсов, адаптивную верстку, интеграцию с серверной частью и поддержку клиентской стороны приложений.",
     "skills": "Навыки и технологии",
-    "skills-description": "Стек:\nЯзыки и разметка: HTML, CSS/SCSS, JavaScript, TypeScript\nФреймворки и библиотеки: React, Next.js, Redux, Redux Toolkit, RTK Query, Zustand, MUI, Bootstrap, Tailwind, styled-components, shadcn/ui, React Hook Form, Zod\nТестирование: React Testing Library\nИнструменты и системы контроля версий: Git, Gitlab, Vite, Figma",
+    "skills-description": "Языки и разметка: HTML, CSS/SCSS, JavaScript, TypeScript\nФреймворки и библиотеки: React, Next.js, Redux, Redux Toolkit, RTK Query, Zustand, MUI, Bootstrap, Tailwind, styled-components, shadcn/ui, React Hook Form, Zod\nТестирование: React Testing Library\nИнструменты и системы контроля версий: Git, Gitlab, Vite, Figma",
     "experience": "Опыт"
   },
   "Experience": [

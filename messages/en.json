@@ -15,7 +15,7 @@
     "introduction": "Introduction",
     "introduction-description": "I'm a Frontend Developer with commercial experience, passionate about building modern and user-friendly web applications. I have worked on real-world projects, including UI development, responsive layouts, backend integration, and maintaining the client side of applications.",
     "skills": "Skills & Technologies",
-    "skills-description": "Stack:\nLanguages & Markup: HTML, CSS/SCSS, JavaScript, TypeScript\nFrameworks & Libraries: React, Next.js, Redux, Redux Toolkit, RTK Query, Zustand, MUI, Bootstrap, Tailwind, styled-components, shadcn/ui, React Hook Form, Zod\nTesting: React Testing Library\nTools & Version Control: Git, GitLab, Vite, Figma",
+    "skills-description": "Languages & Markup: HTML, CSS/SCSS, JavaScript, TypeScript\nFrameworks & Libraries: React, Next.js, Redux, Redux Toolkit, RTK Query, Zustand, MUI, Bootstrap, Tailwind, styled-components, shadcn/ui, React Hook Form, Zod\nTesting: React Testing Library\nTools & Version Control: Git, GitLab, Vite, Figma",
     "experience": "Experience"
   },
   "Experience": [
