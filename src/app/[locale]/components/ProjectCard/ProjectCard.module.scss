@@ -2,23 +2,23 @@
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 24px;
-  padding: 32px;
+  padding: clamp(20px, 4vw, 32px);
   backdrop-filter: blur(30px);
 
   &_compact {
-    padding: 24px;
+    padding: clamp(16px, 3vw, 24px);
   }
 
   &__header {
     display: flex;
     align-items: center;
-    gap: 16px;
-    margin-bottom: 24px;
+    gap: clamp(12px, 2vw, 16px);
+    margin-bottom: clamp(16px, 3vw, 24px);
   }
 
   &__icon {
-    width: 48px;
-    height: 48px;
+    width: clamp(40px, 6vw, 48px);
+    height: clamp(40px, 6vw, 48px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,8 +29,8 @@
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     svg {
-      width: 24px;
-      height: 24px;
+      width: clamp(18px, 3vw, 24px);
+      height: clamp(18px, 3vw, 24px);
     }
   }
 
@@ -41,7 +41,7 @@
   }
 
   &__title {
-    font-size: 22px;
+    font-size: clamp(18px, 3vw, 22px);
     font-weight: 700;
     color: rgba(255, 255, 255, 0.98);
     margin: 0;

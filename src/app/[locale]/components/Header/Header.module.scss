@@ -1,31 +1,31 @@
 .header {
   background-color: var(--color-bg);
-  padding: 16px 24px;
-  font-size: 18px;
+  padding: clamp(12px, 2.5vw, 16px) clamp(16px, 4vw, 24px);
+  font-size: clamp(14px, 2.2vw, 18px);
   border-radius: 50px;
   max-width: 1024px;
   margin: 0 auto;
   border: 1px solid var(--color-border);
   position: sticky;
-  top: 24px;
+  top: clamp(12px, 3vw, 24px);
   z-index: 50;
+  transition: all 0.3s ease;
 
   &__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1024px;
     width: 100%;
-    margin: 0 auto;
   }
 
   &__nav {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: clamp(16px, 4vw, 32px);
   }
 
   &__link {
+    font-size: clamp(12px, 2vw, 18px);
     color: var(--color-textLight);
     text-decoration: none;
     transition: color 0.3s ease;
@@ -36,7 +36,7 @@
   }
 
   &__lang {
-    font-size: 18px;
+    font-size: clamp(14px, 2vw, 18px);
     color: var(--color-textLight);
     background: none;
     border: none;
@@ -52,4 +52,10 @@
 .headerScrolled {
   backdrop-filter: blur(40px);
   background-color: #00000068;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin: 0 24px;
+  }
 }

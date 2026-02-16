@@ -14,7 +14,6 @@ export const Projects = () => {
   const title = useTranslations("ProjectItem");
   const option = useTranslations("StackOptions");
 
-  // const stackOptions = [`${option("all")}`, "Next.js", "React", "HTML"];
   const stackOptions = [
     { value: "all", label: option("all") },
     { value: "next", label: "Next.js" },
